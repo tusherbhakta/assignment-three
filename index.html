@@ -23,6 +23,9 @@
         tailwind.config = {
           theme: {
             extend: {
+                backgroundImage: {
+                    'bg-pattern': "url('./images/bg.jpg')",
+                    },
               colors: {
                 clifford: '#da373d',
                 'rent-primary': '#ABEF5F',
@@ -87,7 +90,7 @@
                     <div class="dropdown dropdown-end">
                         <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
                             <div class="w-10 rounded-full">
-                                <img alt="Tailwind CSS Navbar component" src="./images/dropdown.png" />
+                                <img alt="Tailwind CSS Navbar component" src="./images/humberger.jpg" />
                             </div>
                         </div>
                         <ul tabindex="0"
@@ -189,7 +192,280 @@
             </div>
         </section>
         <!-- design thoghtful end  -->
+        <!-- work process start  -->
+        <section class="md:container mx-auto mb-20">
+            <div class="pb-6">
+                <div class="">
+                    <div class="text-center">
+                        <div class=" btn rounded-full bg-white  font-bold">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <a class="text-[#494949]">How we work</a>
+
+                        </div>
+                    </div>
+                    <div class="text-center ">
+                        <h3 class=" my-6 font-bold  text-2xl md:text-3xl lg:text-4xl xl:text-5xl ">Our Work Process
+                        </h3>
+                        <p class=" text-[#494949] py-2 max-w-2xl mx-auto">Our work process involves collaboration,
+                            meticulous planning,
+                            and attention to detail, ensuring each project meets your vision and needs.</p>
+                    </div>
+                </div>
+
+                <!-- Works Process card -->
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-4 my-6">
+                    <div class="bg-[#E7C1D3] p-6 rounded-lg">
+                        <div><img src="./images/concept.png" alt=""></div>
+                        <h5 class=" font-bold text-xl py-4">Concept</h5>
+                        <p class="text-[#494949]">We start with a concept that reflects your vision, laying the
+                            foundation for a unique space.
+                        </p>
+                    </div>
+                    <div class="bg-[#EFDA6E] p-6 rounded-lg">
+                        <div><img src="./images/flow-chart.png" alt=""></div>
+                        <h5 class=" font-bold text-xl py-4">Design Process</h5>
+                        <p class="text-[#494949]">Our design process involves translating ideas into detailed plans,
+                            ensuring functionality and aesthetics align.
+                        </p>
+                    </div>
+                    <div class="bg-[#A4DAC3] p-6 rounded-lg">
+                        <div><img src="./images/vision.png" alt=""></div>
+                        <h5 class=" font-bold text-xl py-4">Supervision</h5>
+                        <p class="text-[#494949]">We provide hands-on supervision throughout the project, ensuring
+                            quality and adherence to the design.
+                        </p>
+                    </div>
+                    <div class="bg-[#77AAEA] p-6 rounded-lg">
+                        <div><img src="./images/budget-planning.png" alt=""></div>
+                        <h5 class=" font-bold text-xl py-4">Budget Planning</h5>
+                        <p class="text-[#494949]">Budget planning is integral, balancing costs with quality to achieve
+                            the best possible results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- work process end  -->
     </main>
-    <footer></footer>
+    <!-- portfolio start  -->
+    <section class="md:container mx-auto my-20">
+        <div class="py-6">
+            <!-- text section  -->
+            <div>
+                <div class="text-center">
+                    <div class=" btn rounded-full bg-[#abef5f33]  font-bold">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <a class="text-[#494949]">Explore our Latest works</a>
+
+                    </div>
+
+                </div>
+                <div>
+                    <div class="text-center ">
+                        <h3 class=" my-6 font-bold  text-2xl md:text-3xl lg:text-4xl xl:text-5xl ">Our Latest Portfolio
+                        </h3>
+                        <p class=" text-[#494949] py-2 max-w-sm md:max-w-2xl mx-auto ">Our latest portfolio features a
+                            curated selection of recent projects, demonstrating our expertise in creating distinctive,
+                            functional spaces.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Latest portfolio card section  -->
+        <div>
+            <div class="grid grid-cols-12 gap-5">
+                <!-- card 1 -->
+                <div class="col-span-12 lg:col-span-8">
+                    <div
+                        class="flex flex-col justify-center md:justify-start md:flex-row items-center gap-10 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl h-full">
+                        <div class="">
+                            <img src="./images/img1.png" class="w-full" alt="">
+                        </div>
+                        <div>
+                            <h5 class="font-bold text-xl py-4">Commercial</h5>
+                            <p class="max-w-md ">Our latest portfolio features a curated selection of recent projects,
+                                demonstrating our expertise in creating distinctive, functional spaces.</p>
+                            <div class="flex items-center gap-2">
+                                <h5 class="font-bold text-xl py-4">View Details</h5>
+                                <button
+                                    class=" h-8 w-8 bg-rent-primary -rotate-45 rounded-full text-black flex justify-center items-center">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col-span-12 lg:col-span-4 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
+                    <img src="./images/img2.png" class="w-full" alt="">
+                </div>
+                <!-- card 3 -->
+                <div class="col-span-12 lg:col-span-3 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
+                    <img src="./images/img3.png" class="w-full" alt="">
+                </div>
+                <!-- card 4 -->
+                <div class="col-span-12 lg:col-span-6">
+                    <div
+                        class="flex flex-col justify-center md:justify-start md:flex-row items-center gap-10 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl h-full">
+                        <div>
+                            <img src="./images/img4.png" class="w-full" alt="">
+                        </div>
+                        <div>
+                            <h5 class="font-bold text-xl py-4">Commercial</h5>
+                            <p class="max-w-md">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <div class="flex items-center gap-2">
+                                <h5 class="font-bold text-xl py-4">View Details</h5>
+                                <button
+                                    class=" h-8 w-8 bg-rent-primary -rotate-45 rounded-full text-black flex justify-center items-center">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="col-span-12 lg:col-span-3 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
+                    <img src="./images/img5.png" class="w-full" alt="">
+                </div>
+                <!-- card 6 -->
+                <div class="col-span-12 lg:hidden p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
+                    <img src="./images/img3.png" class="w-full" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- portfolio end  -->
+     <!-- here uni section  -->
+
+
+    <!-- next project start  -->
+    <section class="bg-bg-pattern bg-cover bg-no-repeat">
+        <div class="md:container mx-auto">
+            <!-- heading section start  -->
+            <div class="md:py-6">
+                <!-- text section  -->
+                <div>
+                    <div class="text-center">
+                        <div class=" btn rounded-full bg-[#abef5f33]  font-bold">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <a class="text-[#494949]">Lets Connect</a>
+
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="text-center ">
+                            <h3 class=" my-6 font-bold  text-2xl md:text-3xl lg:text-4xl xl:text-5xl ">Lets Discuss
+                                Next
+                                Project
+                            </h3>
+                            <p class=" text-[#494949] py-2 max-w-sm md:max-w-2xl mx-auto ">Lets discuss your next
+                                project to explore ideas, define goals, and create a plan tailored to your needs.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- form section start  -->
+            <div class="max-w-[50%] mx-auto">
+                <div class="border-b border-gray-900/10 pb-12">
+
+                    <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-2 md:gap-y-8 sm:grid-cols-6">
+                        <div class="sm:col-span-3">
+                            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                    class="block w-full rounded-full bg-[#FFFFFF] border-0 py-3 ring-1 ring-inset ring-gray-300 placeholder:text-[#A0A0A0] placeholder:px-4 focus:ring-2 focus:ring-inset  sm:text-sm sm:leading-6 "
+                                    placeholder="First Name*" required>
+                            </div>
+                        </div>
+                        <div class="sm:col-span-3">
+                            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                    class="block w-full rounded-full bg-[#FFFFFF] border-0 py-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-[#A0A0A0] placeholder:px-4 focus:ring-2 focus:ring-inset  sm:text-sm sm:leading-6 "
+                                    placeholder="Last Name*" required>
+                            </div>
+                        </div>
+                        <div class="sm:col-span-3">
+                            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                    class="block w-full rounded-full bg-[#FFFFFF] border-0 py-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-[#A0A0A0] placeholder:px-4 focus:ring-2 focus:ring-inset  sm:text-sm sm:leading-6 "
+                                    placeholder="Phone Number*" required>
+                            </div>
+                        </div>
+                        <div class="sm:col-span-3">
+                            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                    class="block w-full rounded-full bg-[#FFFFFF] border-0 py-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-[#A0A0A0] placeholder:px-4 focus:ring-2 focus:ring-inset  sm:text-sm sm:leading-6 "
+                                    placeholder="Email Number*" required>
+                            </div>
+                        </div>
+                        <div class="sm:col-span-6">
+                            <label for="message"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"></label>
+                            <textarea id="message" rows="6"
+                                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-2xl border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 placeholder:text-[#A0A0A0] dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Write your message here"></textarea>
+
+                        </div>
+                        <div class="md:col-span-6 ">
+                            <div class=" btn rounded-full bg-rent-primary font-bold md:flex">
+                                <a class="">Book Consult</a>
+                                <button class=" h-8 w-8 bg-black -rotate-45 rounded-full text-white">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- next project end  -->
+    <footer class=" bg-[#1C1C1C] ">
+        <section class="md:container mx-auto">
+            <div>
+                <div class="flex justify-center items-center pt-24">
+                    <button
+                        class=" h-8 w-8 bg-rent-primary -rotate-45 rounded-full text-black flex justify-center items-center">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <h3 class="font-bold text-3xl text-white mx-2">Rinterio</h3>
+                </div>
+                <div class="text-center py-6">
+                    <p class="text-[#737373] max-w-sm md:max-w-2xl mx-auto">Explore our interior designs that blend
+                        elegance with functionality, creating spaces that are both stylish and inviting.</p>
+                </div>
+            </div>
+            <div>
+                <div
+                    class=" text-[#E9E9E9] font-bold flex flex-col md:flex-row justify-center items-center gap-6 md:gap-28">
+                    <p>Home</p>
+                    <p>Services</p>
+                    <p>Portfolio</p>
+                    <p>Blogs</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <div class=" btn rounded-full bg-rent-primary font-bold my-6">
+                    <a class="">Book Consult</a>
+                    <button class=" h-8 w-8 bg-black -rotate-45 rounded-full text-white">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+    </footer>
 </body>
 </html>
