@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/5eaf209caf.js" crossorigin="anonymous"></script>
     <!-- daisyUI and tailwind css cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -23,6 +25,10 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'rent-primary': '#ABEF5F',
+                        'basic-01': '#494949',
+                        'basic-02': '#737373',
+                        'bt-bg1': '#abef5f80',
               }
             }
           }
@@ -30,6 +36,77 @@
       </script>
 </head>
 <body class="manrope-font">
-    
+    <header class=" md:container mx-auto my-10">
+        <!-- nav bar start -->
+        <nav>
+            <div class="navbar flex justify-between">
+                <div class="">
+                    <button
+                        class=" h-8 w-8 bg-rent-primary -rotate-45 rounded-full text-black flex justify-center items-center mr-2">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                    <a class="font-bold text-3xl">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-lg">
+                        <li><a class="font-bold text-black">Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="gap-3 hidden md:flex">
+                    <div tabindex="0" role="button" class="btn btn-circle bg-white">
+                        <button class="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="indicator btn btn-circle bg-white hidden md:flex">
+                        <button class="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class=" btn rounded-full bg-rent-primary font-bold hidden md:flex">
+                        <a class="">Book Consult</a>
+                        <button class=" h-8 w-8 bg-black -rotate-45 rounded-full text-white">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <div class="dropdown dropdown-end">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                            <div class="w-10 rounded-full">
+                                <img alt="Tailwind CSS Navbar component" src="./images/dropdown.png" />
+                            </div>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <!-- nav bar end -->
+
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 </html>
